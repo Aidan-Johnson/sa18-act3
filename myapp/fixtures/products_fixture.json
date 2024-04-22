@@ -1,0 +1,29 @@
+[
+    {
+      "model": "myapp.product",
+      "pk": 1,
+      "fields": {
+        "name": "Water Bottle",
+        "price": "25.00",
+        "description": "24 oz Stainless Steel Water Bottle"
+      }
+    },
+    {
+      "model": "myapp.product",
+      "pk": 2,
+      "fields": {
+        "name": "BackPack",
+        "price": "35.00",
+        "description": "Light weight water proof hiking back pack"
+      }
+    },
+    {
+      "model": "myapp.product",
+      "pk": 3,
+      "fields": {
+        "name": "Tent",
+        "price": "40.00",
+        "description": "Spacious 4 Person Tent"
+      }
+    }
+  ]
