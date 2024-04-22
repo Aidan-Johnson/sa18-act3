@@ -20,8 +20,8 @@ from myapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.product_list, name='product_list'),
-    path('products/', views.product_list, name='product_list'),
-    path('products/<int:id>/', views.product_detail, name= 'product_detail')
+    path('', views.product_index, name='product_index'),
+    path('products/', views.product_index, name='product_index'),
+    path('products/<int:id>/', views.product_show, name= 'product_show')
 
 ]
